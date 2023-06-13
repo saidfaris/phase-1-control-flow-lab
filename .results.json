@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 5,
+    "passes": 8,
     "pending": 0,
-    "failures": 3,
-    "start": "2023-06-13T05:00:44.046Z",
-    "end": "2023-06-13T05:00:44.292Z",
-    "duration": 246
+    "failures": 0,
+    "start": "2023-06-13T10:52:17.181Z",
+    "end": "2023-06-13T10:52:17.441Z",
+    "duration": 260
   },
   "tests": [
     {
@@ -15,35 +15,26 @@
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:4:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "scuberGreetingForFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:8:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "scuberGreetingForFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "scuberGreetingForFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -77,43 +68,33 @@
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:4:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "scuberGreetingForFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:8:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "scuberGreetingForFeet is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "scuberGreetingForFeet is not defined"
-      }
-    }
-  ],
-  "passes": [
+      "err": {}
+    },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
